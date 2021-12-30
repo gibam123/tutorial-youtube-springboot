@@ -1,0 +1,8 @@
+package com.tutorial.userservice.feignclient;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient(name = "car-service")
+public interface CarFeignClient {
+
+}
